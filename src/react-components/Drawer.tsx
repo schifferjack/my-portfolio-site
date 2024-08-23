@@ -28,11 +28,6 @@ const Drawer: React.FC<DrawerProps> = ({ isOpen, toggleDrawer }) => {
                 </a>
               </li>
               <li>
-                <a href="#Project" onClick={toggleDrawer}>
-                  Projects
-                </a>
-              </li>
-              <li>
                 <a href="#Contact" onClick={toggleDrawer}>
                   Contact
                 </a>

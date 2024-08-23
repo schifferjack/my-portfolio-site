@@ -36,9 +36,6 @@ function App() {
                 <a href="#About">About</a>
               </li>
               <li className="hover:text-blue-800 poppins-bold">
-                <a href="#Projects">Projects</a>
-              </li>
-              <li className="hover:text-blue-800 poppins-bold">
                 <a href="#Contact">Contact</a>
               </li>
             </div>
