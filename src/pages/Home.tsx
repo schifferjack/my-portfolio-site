@@ -1,11 +1,17 @@
+import profilePic from "../assets/SyarizEdited.jpg";
 const Home = (props: { id: string }) => {
   return (
     <section id={props.id}>
       <div className="flex-col flex pt-[100px] px-8 md:h-screen md:justify-center md:pt-0">
         <div className="flex flex-col justify-center items-center w-full md:flex-row md: gap-4">
           <div className="flex justify-center items-center relative">
-            <div className="h-[10rem] w-[10rem] lg:h-[20rem] lg:w-[20rem] animate-spin rounded-full flex justify-center items-center bg-gradient-to-r from-blue-500 to-green-500 border-solid"></div>
-            <div className="bg-contain absolute h-[9rem] w-[9rem] lg:h-[19rem] lg:w-[19rem] rounded-full bg-[url('src/assets/SyarizEdited.jpg')] z-10"></div>
+            <div
+              className={`h-[10rem] w-[10rem] lg:h-[20rem] lg:w-[20rem] animate-spin rounded-full flex justify-center items-center bg-gradient-to-r from-blue-500 to-green-500 border-solid`}
+            ></div>
+            <div
+              className={`bg-contain absolute h-[9rem] w-[9rem] lg:h-[19rem] lg:w-[19rem] rounded-full z-10`}
+              style={{ backgroundImage: `url(${profilePic})` }}
+            ></div>
           </div>
           <div className="text-center mt-6">
             <p className="poppins-bold text-6xl">
